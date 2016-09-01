@@ -1,0 +1,112 @@
+.navbar-default{
+	background-color: #247A9E;
+	font-size: 18px;
+}
+
+.navbar-default a{
+    color: white !important;
+    font-weight: bold;
+}
+
+.container{
+	/*margin-top: 100px;*/
+	background-color: #FFFFFF;
+	margin-bottom: 5px;
+}
+.header {
+	text-align: center;
+	font-size: 16px;
+}
+body{
+	background-color: #014052 !important;
+	font-family: 'Josefin Sans', sans-serif;
+}
+.container-fluid{
+    margin-left: 15px;
+    margin-right: 15px;
+
+}
+
+.content{
+    margin-top: 100px;
+}
+.navbar-brand{
+	padding-top: 0.60em;
+	font-size: 25px;
+	font-weight: bold;
+	color: #1a1a1a !important;
+	font-family: 'Roboto Slab', serif;
+}
+.btn{
+	height: 30px;
+	/*width: 50px;*/
+}
+
+.radio-inline{
+	font-family: 'Montserrat', sans-serif;
+}
+.table{
+	font-size: 12px !important;
+	text-align: center;
+}
+thead{
+	background-color: #A05F5F;
+}
+
+th{
+    text-align: center;
+	color: whitesmoke;
+}
+td{
+    background-color: whitesmoke;
+}
+
+@media(min-width: 768px) {
+	.list_nav {
+		top: 55px;
+		width: 90%;
+		margin-left: auto !important;
+		margin-right: auto !important;
+		background-color: #272A33;
+		border-color: #272A33;
+		height: 30px !important;
+		border-radius: 2px !important;
+		box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.06), 0 4px 5px 0 rgba(0, 0, 0, 0.06), 0 1px 10px 0 rgba(0, 0, 0, 0.08);
+	}
+}
+@media(max-width: 768px) {
+	.list_nav {
+		top: 50px;
+		width: 90%;
+		margin-left: auto !important;
+		margin-right: auto !important;
+		background-color: #272A33;
+		border-color: #272A33;
+		height: 30px !important;
+		border-radius: 2px !important;
+		box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.06), 0 4px 5px 0 rgba(0, 0, 0, 0.06), 0 1px 10px 0 rgba(0, 0, 0, 0.08);
+	}
+}
+.navbar-default{
+	border-color: #247A9E;
+	border-radius: 0px;
+}
+.order_content{
+	margin-top: 10px
+}
+.navbar_list{
+	font-size: 15px;
+}
+legend{
+	font-weight: bold;
+}
+.active1{
+	font-size: 25px;
+	/*color: red !important;*/
+}
+li>a .active1{
+	color: red !important;
+}
+h4,h5{
+	font-family: 'Josefin Sans', sans-serif;
+}
